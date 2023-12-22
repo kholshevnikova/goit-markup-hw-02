@@ -38,10 +38,13 @@ ul {
 .header-nav-item:hover {
   color: #404bbf;
 }
-.header-studio:active {
-  text-decoration: underline;
+
+.header-nav-item:focus {
+  color: #404bbf;
 }
+
 .header-adress {
+  font-style: normal;
 }
 .header-adress-list {
 }
@@ -144,6 +147,7 @@ ul {
   background-color: #ffffff;
 }
 .team-list-item {
+  background-color: #ffffff;
 }
 .team-img {
 }
